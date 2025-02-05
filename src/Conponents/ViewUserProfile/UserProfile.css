@@ -53,3 +53,7 @@
         color: rgb(77, 77, 77);
     }
 }
+.notice-info{
+    display: flex;
+    gap: 20px;
+}

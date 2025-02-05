@@ -44,6 +44,7 @@ function Create() {
   };
 
   const handleImageUpload = async () => {
+    e.prevetDefault()
     const storage = getStorage(); // Initalize Firebase Storage
     const storageRef = ref(storage, `blogs/${File.name}`); // Create a reference to the image
 

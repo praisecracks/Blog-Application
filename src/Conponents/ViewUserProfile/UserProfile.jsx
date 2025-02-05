@@ -3,6 +3,7 @@ import "../ViewUserProfile/UserProfile.css"
 import back from "../../Asset/arrow_back.svg"
 import { useNavigate } from "react-router-dom"; // Updated import
 import profile from "../../Asset/profile.svg"
+import info from '../../Asset/eye.svg'
 
 function UserProfile() {
       const navigate = useNavigate(); // Updated to useNavigate
@@ -28,7 +29,8 @@ function UserProfile() {
       </div>
       </div>
       <div className="notice-info">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit tempore quo molestias. Similique iusto repellat quas, dolorum voluptas nam obcaecati aperiam autem dignissimos, fugit velit totam modi in ea voluptatum necessitatibus? Dolores quasi illum nesciunt quisquam natus dignissimos adipisci ullam numquam repellendus!
+        <img src= {info} alt="" />
+        This info is credential. Kept....
       </div>
     </div>
   )
